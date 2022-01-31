@@ -5,7 +5,7 @@ body{
 
 @font-face {
     font-family: 'gamer';
-    src: url(/tests/assets/fonts/cs_regular.ttf);
+    src: url(/gzone/tests/assets/fonts/cs_regular.ttf);
 }
 .nav-sec{
     background-color: #2a2b2d;
@@ -64,7 +64,7 @@ body{
 /* Top-Content ends */
 
 .top-vid-sec{
-    background-image: url("/tests/assets/img/cod-wz-2.jpg");
+    background-image: url("/gzone/tests/assets/img/cod-wz-2.jpg");
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -86,7 +86,7 @@ body{
 /* Top Vid Sec Ends */
 
 .side-img{
-    background-image: url("/tests/assets/img/cod-wz.jpg");
+    background-image: url("/gzone/tests/assets/img/cod-wz.jpg");
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -132,7 +132,7 @@ body{
 }
 
 .review-sec{
-    background-image: url("/tests/assets/img/overlay.jpg");
+    background-image: url("/gzone/tests/assets/img/overlay.jpg");
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -145,7 +145,7 @@ body{
 /* Footer Ends */
 
 .bg-game1{
-    background-image: url("/tests/assets/img/witcher.jpg");
+    background-image: url("/gzone/tests/assets/img/witcher.jpg");
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -155,7 +155,7 @@ body{
 }
 
 .bg-game2{
-    background-image: url("/tests/assets/img/sl-2.jpg");
+    background-image: url("/gzone/tests/assets/img/sl-2.jpg");
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -165,7 +165,7 @@ body{
 }
 
 .bg-game3{
-    background-image: url("/tests/assets/img/sl-3.jpg");
+    background-image: url("/gzone/tests/assets/img/sl-3.jpg");
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
