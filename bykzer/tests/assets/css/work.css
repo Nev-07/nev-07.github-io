@@ -1,0 +1,347 @@
+/* Nav-Sec */
+body{
+    overflow-x: hidden;
+}
+
+.mobile-nav{
+    display: none;
+}
+
+.nav-sec{
+    position: absolute;
+    padding: 0.5rem;
+    background-color: rgba(0,0,0,.4);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    top: 0;
+    z-index: 9;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0rem;
+}
+
+
+#redirect{
+    background-color: rgba(0,158,227, 0.78);
+    border-radius: 0.5rem;
+    outline: cyan;
+    color: black;
+}
+#redirect:hover{
+    color: white;
+}
+/* Nav-Sec Ends*/
+
+/* Top-Carousel */
+.bg-pic1{
+    background-image: url("/tests/assets/img/banner.jpg");
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    color: white;
+}
+
+.bg-pic2{
+    background-image: url("/tests/assets/img/cinelli.jpeg");
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    color: white;
+}
+
+.bg-pic3{
+    background-image: url("/tests/assets/img/affinity.jpeg");
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    color: white;
+}
+
+.bg-overlay{
+    content : "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgb(0, 0, 0, 0.2);
+}
+
+.img-content{
+    height: 550px;
+}
+
+.caro-heading{
+    font-size: 60px;
+}
+
+.caro-text{
+    font-size: 30px;
+}
+
+.owl-nav{
+    position: absolute;
+    display: flex;
+    top: 37%;
+    left: 10%;
+    justify-content: space-between;
+    width: 80%;
+    color: white;
+}
+
+.left-icon, .right-icon{
+    width: 50px;
+    transition: 0.5s;
+    background: none;
+    filter: invert(100%);
+}
+
+.btn-top{
+    background-color: rgba(0,158,227, 0.78);
+    padding: 15px 55px;
+}
+
+.btn-top:hover{
+    background-color: rgba(35,44,23, 0.78);
+    padding: 15px 55px;
+    color: white;
+}
+
+.padd-btn{
+    background-color: #3a393900;
+    border: 1px solid white;
+    padding: 1.3rem;
+    transition: 0.5s;
+}
+
+.padd-btn:hover{
+    background-color: rgba(0,158,227, 0.78);
+}
+/* Top-Carousel Ends */
+
+/* Welcome-Section */
+.welcome-sec{
+    background-color: #009EE3;
+}
+
+.welcome-img{
+    border-radius: 50%;
+}
+
+.round-img{
+    border: 3px solid #fff;
+    border-radius: 50%;
+    margin-right: 35px;
+    max-width: 100px;
+}
+
+.welcome-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-welcome{
+    background-color: rgba(0,158,227, 0.78);
+    padding: 15px 55px;
+    border: 1px solid white
+}
+/* Welcome-Section Ends */
+
+/* Service-Sec */
+.heading-sec{
+    border-bottom: 1px solid #009EE3;
+}
+
+.ser-icon{
+    font-size: 40px;
+}
+/* Service-Section Ends */
+
+/* Feature-Section */
+.feature-img{
+    position: relative;
+    overflow: hidden;
+}
+
+.feature-text{
+    position: absolute;
+    background-color: rgba(54, 55, 50, 0.69);
+}
+
+.feature-img:hover .feature-text{
+    transform: translateY(-105px);
+    transition: 1s;
+}
+/* Feature-Sec Ends */
+
+/* Remarks-Section */
+.remark-parallex{
+    background-image: url("/tests/assets/img/banner.jpg");
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    color: white;
+}
+
+.overlay{
+    content : "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgba(15,155,224, 0.78);
+}
+/* Remarks-Section Ends */
+
+/* Price-Section */
+.li-sign{
+    font-size: 30px;
+}
+
+.li-price{
+    font-size: 50px;
+}
+
+.price-lr{
+    background-color: #f8f8f8;
+    color: #727272;
+}
+
+.price-m{
+    background-color: #009EE3;
+    color: white;
+}
+
+.price-link:hover{
+    color: white;
+}
+
+.price-link-li:hover{
+    background-color: #009EE3;
+    transition: 0.6s;
+    color: white;
+}
+/* Price-Section Ends */
+
+/* Contact-Section */
+.follow-sec{
+    background-image: url("/tests/assets/img/banner.jpg");
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: white;
+}
+
+.follow-overlay{
+    content : "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.icon-wrap{
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 4px #fff;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 30px;
+}
+
+.btn-send{
+    background-color: rgba(0,158,227, 0.78);
+    color: white;
+    border-radius: 0;
+}
+/* Contact-Section Ends */
+
+/* News-Section */
+.news-sec{
+    background-color: #2E2E2E;
+    color: white;
+}
+
+.b-fix{
+    background-color: #2E2E2E;
+    border: 1px solid #7f7f7f;
+}
+
+.m-left{
+    margin-left: 22px;
+}
+
+.btn-news{
+    background-color: #7f7f7f;
+    color: #c1c1c1;
+    border-radius: 0;
+}
+
+.news-icons{
+    font-size: 40px;
+}
+/* News-Section Ends */
+
+
+
+
+
+/* colors */
+.clr-w{
+    color: white;
+}
+
+.clr-b{
+    background-color: #009EE3;
+}
+
+.clr-g{
+    color: #818181;
+}
+
+.clr-o{
+    color: orange;
+}
+
+.clr-br{
+    color: brown;
+}
+
+.clr-gr{
+    color: green;
+}
+
+.clr-r{
+    color: red;
+}
+
+.clr-bl{
+    color: blue;
+}
+
+.clr-wb{
+    background-color: white;
+}

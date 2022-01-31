@@ -1,0 +1,111 @@
+@media (min-width: 992px) and (max-width: 1024px)
+{
+    .feature-wrap{
+        height: 237px;
+    }
+}
+
+/* For Tablets*/
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .caro-heading{
+        font-size: 45px;
+    }
+    
+    .remark-text{
+        font-size: 15px;
+    }
+}
+
+/* For Mobile Phones */
+@media screen and (max-width: 767px){
+
+
+    .nav-sec{
+        background-color: rgba(0, 0, 0, 0.95);  
+        display: none;
+    }
+
+    .mobile-nav{
+        background-color: rgba(0, 0, 0, 0.95);  
+        display: block;
+    }
+
+    .list-wrap{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+    }
+
+    .drop-content{
+        list-style: none;
+    }
+
+    .dropdown{
+        display: none;
+    }
+
+    .mobile-links{
+        background-color: #080808;
+        color: white;
+        position: absolute;
+        width: 50%;
+        top: 0;
+        left: 0;
+        height: 596px;
+        transform: translateX(-110%);
+        transition: 0.5s;
+        z-index: 1;
+    }
+
+    .mobile-nav-expand{
+        top: 0;
+        left: 0;
+        transform: translateX(0);
+        z-index: 5;
+    }
+
+    #redirect{
+        text-align: center;
+    }
+
+    .padd-btn{
+        padding: 0.5rem;
+    }
+
+    .caro-heading{
+        font-size: 25px;
+    }
+
+    .caro-text{
+        font-size: 20px;
+    }
+
+    .owl-nav{
+        top: 47%;
+    }
+
+    .welcome-btn{
+        justify-content: center;
+    }
+
+    .col-head{
+        text-align: center;
+    }
+
+    .remark-text{
+        font-size: 11px;
+    }
+}
+
+/* For Mobile Phones */
+@media screen and (max-width: 480px)
+{
+
+}
+
+ /* For Mobile Phones */
+@media screen and (max-width: 320px)
+{
+
+}
