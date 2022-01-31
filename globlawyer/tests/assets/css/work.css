@@ -1,0 +1,375 @@
+.nav-link-head{
+    color: black;
+    transition: 0.4s;
+
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+.nav-links{
+    color: #7f7f7f;
+    transition: 0.4s;
+
+}
+
+.link-padd{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+/* Nav-Sec Ends */
+
+.form-sec{
+    background-image: url("/globlawyer/tests/assets/img/home-bg.jpg");
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+
+}
+
+.form-wrap{
+    border-bottom: 0.3rem solid red;
+    transition: 0.4s;
+
+}
+
+.btn-clr{
+    background-color: red;
+    color: white;
+    transition: 0.4s;
+
+}
+
+.form-bg{
+    background-color: white;
+    transition: 0.4s;
+
+    color: black;
+}
+/* Form-Sec Ends */
+
+.icon-wrap{
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    text-align: center;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    transition: 0.4s;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    transition: 0.4s;
+}
+
+.icon-wrap:hover{
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    text-align: center;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    transition: 0.4s;
+    border-top-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+}
+
+.hr-con {
+    width: 3rem;
+}
+
+.hr-style{
+    background-color: red;
+    height: 0.1rem;
+    transition: 0.4s;
+
+}
+
+.wi-icon{
+    width: 100%;
+    padding: 2rem;
+}
+/* Welcome-Sec Ends */
+
+.footer-icon-wrap{
+    border: solid red;
+    transition: 0.4s;
+
+    font-size: 20px;
+    border-radius: 0.5rem;
+
+}
+
+.form{
+    padding: 1rem;
+}
+
+.text-wrapper{
+    display: flex;
+}
+.stats-sec{
+    background-image: url("/globlawyer/tests/assets/img/counter-bg.jpg");
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    transition: 0.4s;
+
+}
+
+.icon-clr{
+    filter: invert(100%);
+}
+
+.icon-wrap-stat{
+    border: 2px solid white;
+    border-top-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    text-align: center;
+    padding-right: 6rem;
+    padding-left: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    transition: 0.4s;
+
+}
+
+.wi-stat{
+    width: 100%;
+    padding: 2rem;
+}
+/* Stat-Sec Ends */
+
+.hr-mid{
+    width: 4rem;
+    background-color: red;
+    height: 0.1rem;
+    transition: 0.4s;
+
+}
+
+.card-head:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+
+}
+
+.card-img-height{
+    height: 14rem;
+}
+
+.card-img-padd{
+    padding: 1rem;
+}
+
+.card-shadow{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+/* Practice-Sec Ends */
+
+.card-icon-wrap{
+    border: solid red;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    text-align: center;
+    height: 5rem;
+    width: 5rem;
+    font-size: 20px;
+    transition: 0.4s;
+
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+
+}
+
+.card-icon-wrap:hover{
+    border: solid red;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+
+    text-align: center;
+    height: 5rem;
+    width: 5rem;
+    font-size: 20px;
+}
+
+
+/* Services-Sec Ends */
+
+.card-icon-wrapper{
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    color: white;
+    background-color: darkgray;
+    transition: 0.4s;
+
+}
+/* Team-Sec Ends */
+
+.consult-sec{
+    background-color: lightgray;
+    transition: 0.4s;
+
+}
+
+.btn-clr-b{
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+
+}
+/* Consult-Sec Ends */
+
+.packages-sec{
+    padding-top: 1rem;
+}
+/* common */
+
+.sec-padd{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.padd-lr{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.padd-tb{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.m-rl{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.bg-clr-w{
+    background-color: white;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 1rem;
+    transition: 0.4s;
+
+}
+
+
+.m-tb{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.wi-100{
+    width: 100%;
+}
+
+.text-clr-r{
+    color: red;
+    transition: 0.4s;
+
+}
+
+.mar-b{
+    margin-bottom: 2rem;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Poppins', sans-serif;
+}
+.nav-btn-clr{
+    background-color: rgb(255, 236, 236);
+    transition: 0.4s;
+
+}
+
+p, span{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Dark Mode and Btn Starts */
+
+.d-mode-btn{
+    position: absolute;
+    right: 0;
+    top: 15rem;
+    width: 5rem;
+}
+
+.toggle-b{
+    color: White;
+    background-color: black;
+    border: 2px solid black;
+    margin: 0;
+    width: 100%;
+    transition: 0.4s;
+
+}
+
+/* BTN Ends */
+
+.blk-bg{
+    background-color: black;
+    transition: 0.4s;
+    
+}
+
+.text-w{
+    color: white;
+    transition: 0.4s;
+
+}
+
+.bg-lb{
+    background-color: #3d3f40;
+    transition: 0.4s;
+
+}
+
+.grey-bg{
+    background-color: #18191a;
+    transition: 0.4s;
+
+}
+
+.img-switch{
+    filter: invert(100%);
+}
+
+.toggle-btn-w{
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+    margin: 0;
+    width: 100%;
+    transition: 0.4s;
+}
+
+#list-ld{
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    background-color: black;
+    height: 24px;
+    text-align: center;
+}
+
+.li-light{
+    color: black;
+    background-color: white;
+    transition: 0.4s;
+}
+
+.list-white{
+    transform: translateY(-24px);
+}
+
+
