@@ -1,0 +1,139 @@
+.navbar-head{
+    width: 230px;
+    position: relative;
+    top: 10px;
+}
+.nav-link{
+    color: black;
+
+}
+.nav-button{
+    background-color: #8ea0aa81;
+    opacity: 1;
+}
+/* Nav Ends Here */
+
+.input-fix{
+    width: 400px;
+
+}
+
+.main-head-padd{
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.img-wrap{
+    height: 308px;
+}
+
+.main-padd{
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+/* Head Ends Here */
+
+.mid-sec{
+    background-color: #fafafa;
+}
+
+.word-color{
+    color: #1266f1;
+}
+
+.mid-para-wrap{
+    margin-top: 65px;
+}
+
+.card-blue{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    border-top: 5px solid #1266f1;
+    border-radius: 5px;
+}
+.card-red{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    border-top: 5px solid #ff3d71;
+    border-radius: 5px;
+}
+.card-green{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    border-top: 5px solid #00bfa6;
+    border-radius: 5px;
+}
+
+.card-foot{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.card-heading-blue{
+    border-left: 4px solid #1266f1;
+    padding-left: 4px;
+}
+.card-heading-red{
+    border-left: 4px solid #ff3d71;
+    padding-left: 4px;
+}
+.card-heading-green{
+    border-left: 4px solid #00bfa6;
+    padding-left: 4px;
+}
+/* Mid Ends Here */
+
+.blog-card{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.blog-heading{
+    text-align: center;
+}
+
+.blogcard-foot{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.blog-para-l{
+    float: left;
+}
+.blog-para-r{
+    float: right;
+}
+
+.blog-btn{
+    margin-top: 5px;
+    width: 100%;
+}
+/* Blog-Sec Ends Here */
+
+.logo-foot{
+    width: 230px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+
+/* common */
+.wi-100{
+    width: 100%;
+}
+
+.nav-mb{
+    margin-bottom: 30px;
+}
+
+.main-mar-tb{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.padd-rl{
+    padding-right: 5px;
+    padding-left: 5px;
+}
