@@ -1,0 +1,164 @@
+.nav-sec{
+    background-color: #f8f9fa;
+}
+.icon-clr{
+    color: red;
+}
+
+.head-sec{
+    background-color: #3f4079;
+    color: #f8f9fa;
+}
+
+.btn-head{
+    width: 5rem;
+    background-color: #2a2b5278;
+    transition: 0.7s;
+}
+
+.btn-head:hover{
+    background-color: #74d1c6;
+}
+/* Head-Sec Ends */
+
+.btn-clr{
+    background-color: #74d1c6;
+}
+
+.wi-icon{
+    height: 3rem;
+}
+
+/* Concern-Sec Ends */
+
+.specialization-sec{
+    background-color: #f8f9fa;
+}
+
+.main-card{
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+.main-card:hover{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    transform: translateY(-15px);
+}
+/* Specialization-Sec Ends */
+
+.list-padd{
+    padding-left: 0px;
+}
+
+.list-head{
+    background-color: #3f4079;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.li-items{
+    list-style: none;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #f8f9fa;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transition: .4s;
+
+}
+
+.li-items:hover{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    background-color: rgb(240, 209, 214);
+    transform: translateY(-5px);
+    color: white;
+
+
+}
+/* Find-Sec Ends */
+
+.more-sec{
+    background-color: #f8f9fa;
+}
+/* More Sec Ends */
+
+.word-clr{
+    color: #006;
+}
+
+.text-btn-clr{
+    background-color: #006;
+    color: white;
+}
+/* Booking-Sec Ends */
+
+.rating-sec{
+    background-color: #f8f9fa;
+
+}
+/* Rating-Sec Ends */
+
+.connection-sec{
+    background-image: url("/tests/assets/img/abstract-grunge-dark-navy-blue-background-picture-id1065941184.jpg");
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.connec-padd{
+    padding: 2rem;
+}
+/* Connection-Sec Ends */
+
+.logo-foot{
+    width: 230px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Common */
+.text-clr{
+    color: black;
+}
+
+.head-padd{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.sec-mar{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.wi-100{
+    width: 100%;
+}
+
+.icon-clr-g{
+    color: green;
+}
+
+.icon-clr-b{
+    color: blue;
+}
+
+.icon-clr-o{
+    color:  orange;
+}
+
+.icon-clr-r{
+    color:  red;
+}
+
+.icon-clr-t{
+    color:  #6767ff;
+}
