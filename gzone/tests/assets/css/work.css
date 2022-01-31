@@ -1,0 +1,432 @@
+body{
+    overflow-x: hidden;
+
+}
+
+@font-face {
+    font-family: 'gamer';
+    src: url(/tests/assets/fonts/cs_regular.ttf);
+}
+.nav-sec{
+    background-color: #2a2b2d;
+    color: white;
+}
+
+.mobile-nav{
+    background-color: #2a2b2d;
+    /* display: none; */
+}
+
+.mega-wrapper{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #171717;
+    top: 56px;
+    left: 0;
+    width: 100%;
+}
+
+.mega-menu:hover .mega-wrapper{
+    display: block;
+}
+
+.scroll-up{
+    position: fixed;
+    right: 0;
+    width: 5%;
+    transform: translateX(100%);
+    transition: 0.3s;
+}
+
+.scroll-show{
+    transform: translateX(-12%);
+    transition: 0.3s;
+}
+
+.scroll-up{
+    z-index: 9999;
+}
+
+
+.mobile-nav{
+    display: none;
+}
+
+/* Nav-Sec Ends */
+
+.top-content{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* Top-Content ends */
+
+.top-vid-sec{
+    background-image: url("/tests/assets/img/cod-wz-2.jpg");
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    color: white;
+}
+
+.top-overlay{
+    content : "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+/* Top Vid Sec Ends */
+
+.side-img{
+    background-image: url("/tests/assets/img/cod-wz.jpg");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
+    color: white;
+}
+
+.side-overlay{
+    content : "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.side-heading{
+    border-left: 3px solid #3333d9;
+    margin-top: 4.3rem;
+}
+
+.side-heading-2{
+    border-left: 3px solid #3333d9;
+    margin-top: 1rem;
+}
+
+.foot-sec{
+    background-color: #2a2b2d;
+}
+
+.foot-btn{
+    color: gray;
+    border: 1px solid gray;
+}
+
+.foot-btn:hover{
+    color: white;
+    background-color: rgb(73, 72, 72);
+    border: 1px solid gray;
+    transition: 0.4s;
+}
+
+.review-sec{
+    background-image: url("/tests/assets/img/overlay.jpg");
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: white;
+}
+
+/* Footer Ends */
+
+.bg-game1{
+    background-image: url("/tests/assets/img/witcher.jpg");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
+    color: white;
+}
+
+.bg-game2{
+    background-image: url("/tests/assets/img/sl-2.jpg");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
+    color: white;
+}
+
+.bg-game3{
+    background-image: url("/tests/assets/img/sl-3.jpg");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
+    color: white;
+}
+
+.bg-overlay{
+    content : "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+.carousel-content{
+    height: 620px;
+}
+
+.owl-nav{
+    position: absolute;
+    display: flex;
+    top: 37%;
+    left: 10%;
+    justify-content: space-between;
+    width: 80%;
+    color: white;
+}
+
+.left-icon, .right-icon{
+    width: 50px;
+    transition: 0.5s;
+    background: none;
+    filter: invert(100%);
+}
+
+.padd-btn{
+    padding: 1.2rem;
+}
+
+.card-content{
+    border-bottom: 1px solid lightgrey;
+}
+
+.category-sec{
+    background-color: black;
+}
+
+.made-by{
+    background-color: rgb(89, 89, 236);
+    color: white;
+}
+.author{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-content{
+    height: 400px;
+}
+
+.scroll-up{
+    outline: none;
+    border: none;
+    background-color: #686565;
+}
+
+/* common */
+
+
+.m-zero{
+    margin: 0;
+}
+.text-tb{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.btn-style{
+    border: 1px solid lightgrey;
+    color: gray;
+}
+
+.dotted-hr{
+    border-top: 1px dashed #a6a6a6;
+}
+
+.o-fit{
+    object-fit: cover;
+}
+
+
+/* colors */
+.text-clr{
+    color: white;
+}
+
+.text-clr-b{
+    color: black;
+}
+
+.text-clr-g{
+    color: gray;
+}
+
+.text-clr-r{
+    color: red;
+}
+.g-font{
+    font-family: 'gamer';
+}
+
+.font-fix{
+    font-size: 1.5rem;
+}
+
+.bg-lg{
+    background-color: #2a2b2d;
+}
+
+/* For Circle */
+
+.progress {
+    width: 150px;
+    height: 150px !important;
+    float: left;
+    line-height: 150px;
+    background: none;
+    margin: 20px;
+    box-shadow: none;
+    position: relative
+}
+
+.progress:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 12px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.progress>span {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1
+}
+
+.progress .progress-left {
+    left: 0
+}
+
+.progress .progress-bar {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 12px;
+    border-style: solid;
+    position: absolute;
+    top: 0
+}
+
+.progress .progress-left .progress-bar {
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left
+}
+
+.progress .progress-right {
+    right: 0
+}
+
+.progress .progress-right .progress-bar {
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading-1 1.8s linear forwards
+}
+
+.progress .progress-value {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background: #000;
+    font-size: 24px;
+    color: #fff;
+    line-height: 135px;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 5%
+}
+
+.progress.blue .progress-bar {
+    border-color: #049dff
+}
+
+.progress.blue .progress-left .progress-bar {
+    animation: loading-2 1.5s linear forwards 1.8s
+}
+
+.progress.yellow .progress-bar {
+    border-color: #fdba04
+}
+
+.progress.yellow .progress-right .progress-bar {
+    animation: loading-3 1.8s linear forwards
+}
+
+.progress.yellow .progress-left .progress-bar {
+    animation: none
+}
+
+@keyframes loading-1 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg)
+    }
+}
+
+@keyframes loading-2 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(144deg);
+        transform: rotate(144deg)
+    }
+}
+
+@keyframes loading-3 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(135deg);
+        transform: rotate(135deg)
+    }
+}
