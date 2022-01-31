@@ -39,7 +39,7 @@ body{
 
 /* Top-Carousel */
 .bg-pic1{
-    background-image: url("/tests/assets/img/banner.jpg");
+    background-image: url("/bykzer/tests/assets/img/banner.jpg");
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -50,7 +50,7 @@ body{
 }
 
 .bg-pic2{
-    background-image: url("/tests/assets/img/cinelli.jpeg");
+    background-image: url("/bykzer/tests/assets/img/cinelli.jpeg");
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -61,7 +61,7 @@ body{
 }
 
 .bg-pic3{
-    background-image: url("/tests/assets/img/affinity.jpeg");
+    background-image: url("/bykzer/tests/assets/img/affinity.jpeg");
     position: relative;
     background-attachment: fixed;
     background-position: center;
