@@ -190,7 +190,7 @@ body{
 
 /* Remarks-Section */
 .remark-parallex{
-    background-image: url("/tests/assets/img/banner.jpg");
+    background-image: url("/bykzer/tests/assets/img/banner.jpg");
     position: relative;
     background-attachment: fixed;
     background-position: center;
