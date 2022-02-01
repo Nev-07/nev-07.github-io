@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Bootstrap 4 Example</title>
+    <title>Novena</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
@@ -35,12 +35,12 @@
         </div>
     </section>
 
-    <section id="bott-nav">
-        <nav class="navbar navbar-expand-md bg-white navbar">
+    <section id="bott-nav" class="bg-switch">
+        <nav class="navbar navbar-expand-md navbar">
             <div class="container">
                 <!-- Brand -->
                 <div class="brand-img py-3">
-                    <img class="w-100" src="/novena/tests/assets/img/logo.png" alt="">
+                    <img class="w-100 img-s" src="/novena/tests/assets/img/logo.png" alt="">
                 </div>
                 <!-- Toggler/collapsibe Button -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -51,16 +51,54 @@
                 <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
                     <ul class="navbar-nav">
                         <li class="nav-item px-2">
-                            <a class="nav-link nav-hov g-font text-dark" href="index.html"><b>Home</b></a>
+                            <a class="nav-link nav-hov g-font text-clr t-w" href="index.html"><b>Home</b></a>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="nav-link nav-hov g-font text-dark" href="about.html"><b>About</b></a>
+                            <a class="nav-link nav-hov g-font text-clr t-w" href="about.html"><b>About</b></a>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="nav-link nav-hov g-font text-dark" href="service.php"><b>Services</b></a>
+                            <a class="nav-link nav-hov g-font text-clr t-w" href="service.html"><b>Services</b></a>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="nav-link nav-hov g-font text-dark" href="contact.php"><b>Contact</b></a>
+                            <a class="nav-link nav-hov g-font text-clr t-w" href="contact.html"><b>Contact</b></a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hov g-font text-clr t-w"><i class="fas fa-random toggle-btn"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section class="mobile-nav">
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+                <!-- Brand -->
+                <div class="brand-img py-3">
+                    <img class="w-100" src="/novena/tests/assets/img/logo.png" alt="">
+                </div>
+                <!-- Toggler/collapsibe Button -->
+                <div class="myBtn">
+                    <span>
+                        <i class="swap text-clr fas fa-bars"></i>
+                    </span>
+                </div>
+
+                <!-- Navbar links -->
+                <div class="mobile-links">
+                    <ul class="d-flex pt-3 list-wrap mob-ul">
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hov g-font text-dark px-0" href="index.html"><b>Home</b></a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hov g-font text-dark px-0" href="about.html"><b>About</b></a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hov g-font text-dark px-0" href="service.html"><b>Services</b></a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link nav-hov g-font text-dark px-0" href="contact.html"><b>Contact</b></a>
                         </li>
                     </ul>
                 </div>
@@ -121,22 +159,22 @@
                 <div class="col-lg-4">
                     <div class="contact-wrapper d-flex flex-column justify-content-center align-items-center">
                         <i class="fas fa-mobile-alt contact-icon py-2"></i>
-                        <h5 class="pt-2">Call Us</h5>
-                        <p class="main-text"> +823-4565-13456 </p>
+                        <h5 class="pt-2 t-w">Call Us</h5>
+                        <p class="main-text t-w"> +823-4565-13456 </p>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="contact-wrapper d-flex flex-column justify-content-center align-items-center">
                         <i class="fas fa-mail-bulk contact-icon py-2"></i>
-                        <h5 class="pt-2">Email Us</h5>
-                        <p class="main-text"> contact@mail.com </p>
+                        <h5 class="pt-2 t-w">Email Us</h5>
+                        <p class="main-text t-w"> contact@mail.com </p>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="contact-wrapper d-flex flex-column justify-content-center align-items-center">
                         <i class="fas fa-map-marker-alt contact-icon px-2"></i>
-                        <h5 class="pt-2">Location</h5>
-                        <p class="main-text"> North Main Street,Brooklyn Australia </p>
+                        <h5 class="pt-2 t-w">Location</h5>
+                        <p class="main-text t-w"> North Main Street,Brooklyn Australia </p>
                     </div>
                 </div>
             </div>
@@ -146,9 +184,9 @@
     <section id="contact-us-sec">
         <div class="container">
             <div class="heading-wrapper text-center py-5">
-                <h2 class="main-head"><b>Contact Us</b></h2>
+                <h2 class="main-head t-w"><b>Contact Us</b></h2>
                 <hr class="hr-style">
-                <p class="main-text">Laboriosam exercitationem molestias beatae eos pariatur, similique, <br> excepturi
+                <p class="main-text t-w">Laboriosam exercitationem molestias beatae eos pariatur, similique, <br> excepturi
                     mollitia sit perferendis maiores ratione aliquam?</p>
             </div>
 
@@ -184,15 +222,15 @@
             width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </section>
     <!-- Main Content Ends -->
-    <section id="footer-sec">
+    <section id="footer-sec" class="award-clr bg-switch">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
                     <div class="left-wrapper py-5">
-                        <div class="left-wrap-img">
+                        <div class="left-wrap-img img-s">
                             <img class="w-50" src="/novena/tests/assets/img/logo.png" alt="">
                         </div>
-                        <p class="main-text">Tempora dolorem voluptatum nam vero assumenda voluptate, facilis ad eos
+                        <p class="main-text t-w">Tempora dolorem voluptatum nam vero assumenda voluptate, facilis ad eos
                             obcaecati tenetur veritatis eveniet distinctio possimus.</p>
                         <ul class="foot-icon px-0">
                             <li class="foot-icon-wrapper mx-2"><i class="fab fa-facebook-f"></i></li>
@@ -203,41 +241,41 @@
                 </div>
                 <div class="col-lg-2">
                     <div class="department-wrapper py-5">
-                        <h5 class="main-head pb-2"><b>Department</b></h5>
+                        <h5 class="main-head pb-2 t-w"><b>Department</b></h5>
                         <hr class="hr-style-2 m-0">
                         <ul class="foot-icon p-0">
-                            <li class="main-text py-1">Surgery</li>
-                            <li class="main-text py-1">Wome's Health</li>
-                            <li class="main-text py-1">Radiology</li>
-                            <li class="main-text py-1">Cardioc</li>
-                            <li class="main-text py-1">Medicine</li>
+                            <li class="main-text py-1 t-w">Surgery</li>
+                            <li class="main-text py-1 t-w">Wome's Health</li>
+                            <li class="main-text py-1 t-w">Radiology</li>
+                            <li class="main-text py-1 t-w">Cardioc</li>
+                            <li class="main-text py-1 t-w">Medicine</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-2">
                     <div class="support-wrapper py-5">
-                        <h5 class="main-head pb-2"><b>Support</b></h5>
+                        <h5 class="main-head pb-2 t-w"><b>Support</b></h5>
                         <hr class="hr-style-2 m-0">
                         <ul class="foot-icon p-0">
-                            <li class="main-text py-1">Terms and Condition</li>
-                            <li class="main-text py-1">Privacy Policy</li>
-                            <li class="main-text py-1">Companny Support</li>
-                            <li class="main-text py-1">FAQuestions</li>
-                            <li class="main-text py-1">Company License</li>
+                            <li class="main-text py-1 t-w">Terms and Condition</li>
+                            <li class="main-text py-1 t-w">Privacy Policy</li>
+                            <li class="main-text py-1 t-w">Companny Support</li>
+                            <li class="main-text py-1 t-w">FAQuestions</li>
+                            <li class="main-text py-1 t-w">Company License</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="touch-wrapper py-5">
-                        <h5 class="main-head pb-2"><b>Get In Touch</b></h5>
+                        <h5 class="main-head pb-2 t-w"><b>Get In Touch</b></h5>
                         <hr class="hr-style-2 m-0">
                         <ul class="foot-icon p-0">
-                            <li class="main-text py-2"><i class="fas fa-envelope"></i> Support Available for 24/7</li>
-                            <li class="py-1">
+                            <li class="main-text py-2 t-w"><i class="fas fa-envelope t-w"></i> Support Available for 24/7</li>
+                            <li class="py-1 t-w">
                                 <h4>Support@email.com</h4>
                             </li>
-                            <li class="main-text py-1"><i class="fas fa-microphone"></i> Mon to Fri : 08:30 - 18:00</li>
-                            <li class="py-1">
+                            <li class="main-text py-1 t-w"><i class="fas fa-microphone t-w"></i> Mon to Fri : 08:30 - 18:00</li>
+                            <li class="py-1 t-w">
                                 <h4>+23-456-6588</h4>
                             </li>
                         </ul>
@@ -246,7 +284,7 @@
             </div>
             <div class="footer-bott d-flex align-items-center py-3">
                 <div class="col-lg-6 col-sm-12">
-                    <span class="main-text">Copyright © 2021, Designed & Developed</span>
+                    <span class="main-text t-w">Copyright © 2021, Designed & Developed</span>
                 </div>
                 <div class="col-lg-6 col-sm-12">
                     <div class="form-wrapper">

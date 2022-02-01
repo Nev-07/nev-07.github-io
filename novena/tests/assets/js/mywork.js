@@ -36,4 +36,16 @@ $(document).ready(function () {
             switchBtn.addClass("fa-times")
         }
     });
+
+
+    $(".toggle-btn").on('click', function (e) {
+        $("body").toggleClass("back-black")
+        $(".bg-switch").toggleClass("back-black")
+        $(".bg-lb").toggleClass("back-lightblack")
+        $(".t-w").toggleClass("text-w")
+        $(".img-s").toggleClass("img-filter")
+
+
+
+    });
 })
