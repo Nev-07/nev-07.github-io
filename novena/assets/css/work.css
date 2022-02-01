@@ -1,0 +1,394 @@
+*{
+    box-sizing: border-box;
+}
+
+#top-nav{
+    background-color: #223a66;
+}
+
+.num-size{
+    font-size: 25px;
+}
+
+.top-ul{
+    list-style: none;
+}
+
+.mobile-nav{
+    background-color: #2a2b2d;
+    display: none;
+}
+
+.mob-ul{
+    list-style: none;
+}
+/* Nav-Ends */
+
+#home-main{
+    background-image: url("../img/slider-bg-1.jpg");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+
+.home-text-wrapper{
+    height: 600px;
+}
+
+.main-head{
+    color: #223a66;
+}
+
+.main-text{
+    color: #6F8BA4;
+}
+
+.my-btn{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+    background-color: #e12454;
+}
+
+.btn-icon{
+    border-left: 1px solid rgba(255, 255, 255, 0.09);
+}
+/* Home-main Ends */
+
+#appointment-sec{
+    margin-top: -70px;
+    margin-bottom: 6rem;
+
+}
+
+.main-card{
+    background-color: white;
+    box-shadow: 0px 0px 30px 0px rgba(0, 42, 106, 0.1);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.f-icon{
+    font-size: 40px;
+}
+
+.card-btn{
+    background-color: #223a66;
+    color: white;
+    border-radius: 50px;
+}
+/* Appointment-Sec Ends */
+#services-sec{
+    position: relative;
+    padding-bottom: 160px;
+    padding-top: 40px;
+}
+
+#stat-counter{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 90%;
+}
+
+.service{
+    box-shadow: 0px 0px 30px 0px rgba(0, 42, 106, 0.1);
+    border-radius: 20px;
+}
+
+.stat-bg{
+    background-image: url("../img/bg-4.jpg");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    color: white;
+}
+
+.stat-overlay{
+    content : "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgba(34, 58, 102, 0.95);
+}
+.stat-box1{
+    position: relative;
+}
+.stat-icon{
+    font-size: 70px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    color: rgba(255, 255, 255, 0.06);
+}
+
+.stat-num{
+    font-size: 50px;
+}
+
+.stat-content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+}
+
+/* Service-Sec Ends */
+
+#award-sec{
+    background-color: #f4f9fc;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.hr-style{
+    background-color: red;
+    width: 4%;
+    height: 4px;
+}
+
+.award-icon{
+    font-size: 50px;
+    color: #e12454;
+}
+
+.award-box1{
+    background-color: white;
+    padding: 30px;
+}
+/* Award-Sec Ends */
+.booking-content{
+    position: relative;
+}
+
+.booking-num{
+    background-color: #223a66;
+    color: white;
+    font-size: 45px;
+    padding: 3rem;
+    position: absolute;
+    right: 12%;
+    top: 68%;
+}
+
+.num-icon{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.input-bg{
+    background-color: #f4f9fc;
+    height: 55px;
+}
+/* booking-Sec Ends */
+
+#served-sec{
+    background-color: #f4f9fc;
+}
+
+.caro-pic{
+    width: 80px !important;
+    height: 80px;
+    border-radius: 100%;
+    border: 2px solid #eff0f3;
+}
+
+.served-card{
+    background-color: white;
+    position: relative;
+}
+
+.served-icon{
+    position: absolute;
+    font-size: 50px;
+    color: #e12454;
+    top: 195px;
+    right: 85px;
+    opacity: 0.5;
+}
+
+.owl-carousel .owl-item img{
+    width: auto !important;
+}
+
+/* Served-Sec Ends */
+
+#footer-sec{
+    background-color: #f4f9fc;
+}
+
+.foot-icon{
+    list-style: none;
+}
+
+.foot-icon-wrapper{
+    width: 45px;
+    height: 45px;
+    background: #6F8BA4;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    border-radius: 100%;
+    padding-top: 12px;
+}
+
+.hr-style-2{
+    width: 28px;
+    height: 2px;
+    background: red;
+}
+
+.sub-btn{
+    background-color: #e12454;
+    color: white;
+    border-radius: 50px;
+    position: absolute;
+    right: 8px;
+    top: 7px;
+    outline: none;
+    border: none;
+    height: 45px;
+    width: 191px;
+}
+
+.f-input{
+    border-radius: 50px;
+    height: 60px;
+    padding-left: 25px;
+    border: none;
+}
+
+.footer-bott{
+    border-top: 1px solid rgba(0, 0, 0, 0.6)
+}
+/* Footer-Ends */
+
+
+/* About-Page Starts */
+
+#about-main{
+    background-image: url("../img/22.jpg");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    color: white;
+}
+
+.sec-overlay{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.9;
+    background: #223a66;
+}
+
+.about-heading-wrap{
+    height: 300px;
+}
+
+.personal-heading{
+    font-size: 40px;
+}
+
+#personal-care{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/* Attribute-Sec Ends */
+
+#doc-achievements{
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.hr-style-3{
+    width: 40px;
+    height: 3px;
+    background: red;
+}
+
+.achievement-img{
+    height: 120px;
+    margin-bottom: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: #eff0f3;
+}
+
+/* Achievements End */
+
+#our-services{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.service-card{
+    padding: 20px;
+    box-shadow: 0 0 38px rgba(21, 40, 82, 0.07);
+}
+
+.service-img{
+    margin-top: -55px;
+    border: 5px solid #fff;
+}
+/* Services End */
+
+#get-appointment{
+    background-image: url("../img/banner.jpg");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.appointment-btn{
+    background-color: #e12454;
+    color: white;
+    border-radius: 50px;
+}
+/* Appointment-Ends */
+#contact-main{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.contact-wrapper{
+    width: 350px;
+    height: 230px;
+    border: 5px solid #EEF2F6;
+}
+
+.contact-icon{
+    font-size: 50px;
+    color: #e12454;
+}
+
+.msg-btn{
+    background: #223a66;
+    color: #fff;
+    border-color: #223a66;
+    padding: .75rem 2rem;
+    border: 2px solid transparent;
+    border-radius: 50px;
+}
