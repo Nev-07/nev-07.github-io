@@ -148,6 +148,16 @@ body{
     height: 400px;
     color: white;
 }
+
+.men-feature-wrap4{
+    background-image: url("../img/img_bg_2.jpg");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: white;
+}
 /* Men-Feature Ends */
 
 .view-heading{
@@ -165,6 +175,20 @@ body{
     border-radius: 50%;
     border: 1px solid #ccc;
     color: black;
+}
+
+/* Women;s */
+
+.brand-content{
+    border: 1px solid #dee2e6;
+}
+
+.size-s{
+    background-color: #cccccc;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 9px;
 }
 
 
