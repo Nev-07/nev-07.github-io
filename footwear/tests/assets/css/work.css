@@ -98,8 +98,73 @@ body{
     padding-bottom: 40px;
 }
 
-.footer-list{
+.no-style{
     list-style: none;
+}
+/* Footer-Ends */
+
+/* Mens Sec */
+.mens-header{
+    background-image: url("../img/cover-img-1.jpg");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    color: white;
+}
+
+.mens-content-wrapper{
+    background-color: #616161;
+}
+/* Men-header Ends */
+
+.men-feature-wrap1{
+    background-image: url("../img/men.jpg");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: white;
+}
+
+.men-feature-wrap2{
+    background-image: url("../img/women.jpg");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: white;
+}
+
+.men-feature-wrap3{
+    background-image: url("../img/item-11.jpg");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: white;
+}
+/* Men-Feature Ends */
+
+.view-heading{
+    color: rgba(0, 0, 0, 0.3);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.pagi-nav{
+    text-align: center;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    color: black;
 }
 
 
