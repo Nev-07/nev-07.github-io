@@ -4,6 +4,8 @@ $(document).ready(function () {
         margin: 0,
         dots: false,
         nav: false,
+        autoplay: true,
+        autoplayTimeout: 7000,
         responsiveClass: true,
         responsive: {
             0: {
@@ -20,6 +22,8 @@ $(document).ready(function () {
         margin: 0,
         dots: false,
         nav: false,
+        autoplay: true,
+        autoplayTimeout: 5000,
         responsiveClass: true,
         responsive: {
             0: {

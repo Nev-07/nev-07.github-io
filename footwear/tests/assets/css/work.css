@@ -238,6 +238,34 @@ body{
     background-color: rgba(0, 0, 0, 0.6);
 }
 
+.message-btn{
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 10px 15px;
+    background-color: #616161;
+    color: white;
+}
+
+.form-wrapper-main{
+    background-color: whitesmoke;
+    padding: 2rem;
+
+}
+
+.map{
+    height: 740px;
+}
+
+.google-map{
+    height: 100%;
+}
+
+#contact-form{
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+
 
 /* colors */
 
