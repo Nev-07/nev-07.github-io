@@ -1,0 +1,116 @@
+body{
+    background-color: #242323;
+    overflow-x: hidden;
+}
+
+.nav-sec{
+    position: absolute;
+    padding: 0.5rem;
+    background-color: rgba(0,0,0,0);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    top: 0;
+    z-index: 9;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0rem;
+    background-color: #40464ad4;
+}
+/* Nav-Sec Ends */
+
+
+#intro-sec{
+    background-image: url("../img/pedro-henrique-santos-4IoS45J9pmk-unsplash.jpg");
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+
+.intro-overlay{
+    content : "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgba(13, 13, 13, 0.78);
+}
+
+.intro-wrapper{
+    height: 600px;
+}
+
+.intro-para{
+    font-size: 55px;
+}
+
+.intro-heading{
+    font-size: 90px;
+}
+/* Intro-Sec Ends */
+
+.live-btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #3c3c3c;
+    border:1px solid black;
+    color: white;
+    position: absolute;
+    top: 238px;
+    transition: 0.9s;
+}
+
+.live-btn:hover{
+    color: #242323;
+    background-color: aliceblue;
+    text-decoration: none;
+}
+
+/* Feature-Sec Ends */
+
+#footer-sec{
+    background-color: #40464a;
+}
+
+.footer-head{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
+
+/* Footer-Sec Ends */
+
+#copyright-sec{
+    background-color: #0000003d;
+}
+
+/* common */
+
+.font{
+    font-family: 'Quintessential', cursive;
+}
+
+.sec-padd{
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.col-mar{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.no-style{
+    list-style: none;
+}
