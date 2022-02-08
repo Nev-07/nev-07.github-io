@@ -1,0 +1,56 @@
+@media (min-width: 992px) and (max-width: 1024px)
+{
+    
+}
+
+/* For Tablets*/
+@media (min-width: 768px) and (max-width: 991px)
+{
+    
+}
+
+/* For Mobile Phones */
+@media screen and (max-width: 767px){
+
+    .intro-para{
+        font-size: 35px;
+    }
+
+    .intro-heading{
+        font-size: 50px;
+    }
+
+    .live-btn{
+        margin-top: 10px;
+        top: 315px;
+    }
+}
+
+/* For Mobile Phones */
+@media screen and (max-width: 480px)
+{
+
+    .nav-sec{
+        background-color: #40464a;
+    }
+
+    .live-btn{
+        margin-top: 10px;
+        top: 315px;
+    }
+
+}
+
+ /* For Mobile Phones */
+@media screen and (max-width: 320px)
+{
+    .nav-sec{
+        background-color: #40464a;
+    }
+    
+    .live-btn{
+        margin-top: 10px;
+        top: 315px;
+    }
+
+}
